@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: 2020 Diego Elio Pettenò
+#
+# SPDX-License-Identifier: 0BSD
+
+/default-relative /default-relative-target
+/default-relative-spaced     /default-relative-target
+/default-absolute   https://flameeyes.blog/
+/temporary-relative /temporary-relative-target 307
+/permanent-relative /permanent-relative-target 308
+/gone   -   410

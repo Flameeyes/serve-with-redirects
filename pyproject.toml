@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: 2023 Diego Elio Pettenò
+#
+# SPDX-License-Identifier: 0BSD
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+# These settings ensure that black and isort don't disagree on the imports.
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true

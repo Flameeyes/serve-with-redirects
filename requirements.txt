@@ -2,5 +2,5 @@
 #
 # SPDX-License-Identifier: 0BSD
 
-# Auto detect text files and perform LF normalization
-* text=auto
+flask
+gunicorn

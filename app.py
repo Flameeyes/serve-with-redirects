@@ -79,6 +79,11 @@ def before_request_handler():
         flask.request.environ["PATH_INFO"] = parsed_url.path
 
 
+@app.route("/")
+def root():
+    return catch_all("/")
+
+
 @app.route("/<path:path>")
 def catch_all(path):
     # Ignore the path due to https://github.com/pallets/werkzeug/issues/491

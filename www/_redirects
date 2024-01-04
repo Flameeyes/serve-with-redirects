@@ -2,6 +2,7 @@
 #
 # SPDX-License-Identifier: 0BSD
 
+/ /default-root-target
 /default-relative /default-relative-target
 /default-relative-spaced     /default-relative-target
 /default-absolute   https://flameeyes.blog/
